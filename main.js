@@ -21,7 +21,7 @@ const earth = new THREE.Mesh(
   })
 )
 
-const moonTexture = new THREE.TextureLoader().load('https://github.com/alex-arango47/threejs-portfolio-01/blob/main/moon.jpg')
+const moonTexture = new THREE.TextureLoader().load('https://raw.githubusercontent.com/alex-arango47/threejs-portfolio-01/main/moon.jpg')
 const moonNormal = new THREE.TextureLoader().load('https://github.com/alex-arango47/threejs-portfolio-01/blob/main/moonnormal.jpg')
 
 const moon = new THREE.Mesh(
