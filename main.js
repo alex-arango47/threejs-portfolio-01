@@ -79,7 +79,7 @@ moon.rotation.z = initialRotationZ;
 const animate = () => {
   requestAnimationFrame(animate)
 
-  earth.rotation.y += 0.0004
+  earth.rotation.y += -0.0004
 
   // Update moon's position to make it orbit around the origin
   angle += speed;

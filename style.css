@@ -45,6 +45,30 @@ canvas {
   padding: 10px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 14px 28px, rgba(0, 0, 0, 0.09) 0px 10px 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar-Menu_item:hover {
+  box-shadow: rgba(255, 255, 255, 0.09) 0px 1px 1px, rgba(255, 255, 255, 0.09) 0px 3px 3px;
+}
+
+.main {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 40%;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 14px 28px, rgba(0, 0, 0, 0.09) 0px 10px 10px;
+  transition: 0.3s all ease-in-out;
 }
 
 @media screen and (max-width: 968px) {
@@ -59,5 +83,18 @@ canvas {
   }
   .navbar-Menu {
     justify-content: space-between;
+  }
+  .main{
+    width: 95%;
+  }
+  .card {
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: 0%;
+    width: 55%;
+    height: 40vh;
+  }
+  .card:hover {
+    background: rgba(0,0,0,0.8);
   }
 }
