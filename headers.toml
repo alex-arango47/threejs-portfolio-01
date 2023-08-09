@@ -1,8 +1,9 @@
 [[headers]]
+    for = "/*.jpg"
+    [headers.values]
+        Access-Control-Allow-Origin = "https://alex-arango47.github.io"
+
+[[headers]]
     for = "/*"
     [headers.values]
         Access-Control-Allow-Origin = "*"
-[[headers]]
-    for = "/*.jpg"
-    [headers.values]
-        Access-Control-Allow-Origin = "https://github.com/alex-arango47/threejs-portfolio-01"
