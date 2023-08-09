@@ -12,7 +12,7 @@ renderer.setPixelRatio(window.devicePixelRatio)
 renderer.setSize(window.innerWidth, window.innerHeight)
 camera.position.setZ(40)
 
-const earthTexture = new THREE.TextureLoader().load('./earth.jpg')
+const earthTexture = new THREE.TextureLoader().load('https://github.com/alex-arango47/threejs-portfolio-01/blob/main/earth.jpg')
 
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(4, 128, 128),
@@ -21,8 +21,8 @@ const earth = new THREE.Mesh(
   })
 )
 
-const moonTexture = new THREE.TextureLoader().load('./moon.jpg')
-const moonNormal = new THREE.TextureLoader().load('./moonnormal.jpg')
+const moonTexture = new THREE.TextureLoader().load('https://github.com/alex-arango47/threejs-portfolio-01/blob/main/moon.jpg')
+const moonNormal = new THREE.TextureLoader().load('https://github.com/alex-arango47/threejs-portfolio-01/blob/main/moonnormal.jpg')
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(1, 128, 128),
