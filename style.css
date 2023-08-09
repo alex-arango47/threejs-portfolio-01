@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 canvas {
@@ -10,4 +11,53 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: -9999;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 90%;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+
+.navbar {
+  width: 30%;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.navbar-Menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navbar-Menu_item {
+  text-align: center;
+  width: 80px;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 14px 28px, rgba(0, 0, 0, 0.09) 0px 10px 10px;
+}
+
+@media screen and (max-width: 968px) {
+  .header {
+    margin-top: 3vh;
+    width: 95%;
+  }
+  .navbar {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-Menu {
+    justify-content: space-between;
+  }
 }
