@@ -3,6 +3,6 @@
     [headers.values]
         Access-Control-Allow-Origin = "*"
 [[headers]]
-    for = "/*.woff2"
+    for = "/*.jpg"
     [headers.values]
         Access-Control-Allow-Origin = "https://github.com/alex-arango47/threejs-portfolio-01"
